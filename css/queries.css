@@ -1,0 +1,37 @@
+/**************************/
+/* BELOW 640px */
+/**************************/
+@media (max-width: 40em) {
+  html,
+  body {
+    height: auto;
+  }
+
+  .card {
+    width: 34.3rem;
+    height: 61.1rem;
+    margin: 2.8rem auto;
+    display: block;
+  }
+
+  .product-img {
+    width: 100%;
+  }
+
+  .text-container {
+    height: 37.1rem;
+    padding: 2.4rem;
+  }
+
+  .mini-text {
+    margin-bottom: 1.2rem;
+  }
+
+  .heading-primary {
+    margin-bottom: 1.6rem;
+  }
+
+  .price-container {
+    margin-bottom: 2rem;
+  }
+}
